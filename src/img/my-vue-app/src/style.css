@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+
+  ;
+
+}
+
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.link-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-nav li a {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.link-nav li a:hover {
+  color: #EF0178;
+}
+
+.my-name {
+  font-size: 20px;
+  color: #6610f2;
+  font-weight: 600;
+}
+
+.banner_left-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.banner_left-content {
+  opacity: 0.5;
+  padding: 24px 0;
+  line-height: 120%;
+}
+
+.banner-btn {
+  border-radius: 30px;
+  padding: 12px 40px;
+  font-weight: 600;
+  font-size: 18px;
+
+
+}
+
+.banner-btn:hover {
+  color: #EF0178;
+  background-color: #fff;
+  border: 1px solid #EF0178;
+}
+
+.banner-nav {
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.banner-nav:hover {
+  color: #EF0178;
+  background-color: #fff;
+  border: 1px solid #EF0178;
+}
+
+.banner_right img {
+  height: 600px;
+  width: 620px;
+}
+
+.banner_left h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: blue;
+}
+
+.banner_left h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.service {
+  border-radius: 15px;
+  padding: 40px 0;
+}
+
+.service h1 {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.87;
+  color: blue;
+
+}
+
+.service h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.87;
+  color: blue;
+
+}
+
+.service-row h3 {
+  color: #0F0B33;
+  font-size: 32px;
+  font-weight: 700;
+  width: 750px;
+}
+
+.service-row p {
+  color: rgba(34, 40, 49, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+.service_col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service_top-title {
+  text-align: center;
+}
+
+.services-item {
+
+  text-align: center;
+  padding: 40px 21px;
+  box-shadow: 0px 10px 20px rgba(164, 217, 253, 0.15);
+  border-radius: 4px;
+}
+
+.services-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+
+.services-info h3 {
+  font-size: 32px;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.services-info p {
+  font-size: 14px;
+  color: #494949;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
